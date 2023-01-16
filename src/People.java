@@ -1,22 +1,22 @@
-public class People {
-    public String nome;
+public abstract class People {
+    public String name;
 
-    public People(String nome) {
-        this.nome = nome;
+    public People(String name) {
+        this.name = name;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
     @Override
     public String toString() {
         return "People{" +
-                "nome='" + nome + '\'' +
+                "name='" + name + '\'' +
                 '}';
     }
 }
